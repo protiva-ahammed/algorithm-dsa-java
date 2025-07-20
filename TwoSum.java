@@ -1,5 +1,5 @@
-public class SlidingWindowAlgorithm {
+public class TwoSum {
     public static void main(String[] args) {
-
+        
     }
 }
