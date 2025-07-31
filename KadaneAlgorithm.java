@@ -1,6 +1,6 @@
-public class kadane_algorithm {
+public class KadaneAlgorithm {
 
-    static int KadanesAlgorithm(int [] a){
+    static int KadaneAlgorithm(int [] a){
 
         int currSum=a[0];
         int maxSum=a[0];
@@ -33,7 +33,7 @@ public class kadane_algorithm {
     public static void main(String[] args) {
 
         int [] arr = {-2,5,7,-8,5};
-        int res = KadanesAlgorithm(arr);
+        int res = KadaneAlgorithm(arr);
         int ans = bruteForceKadaneAlgorithm(arr);
 
         System.out.println(res + " ans " + ans);
